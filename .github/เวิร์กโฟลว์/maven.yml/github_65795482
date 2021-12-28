@@ -1,0 +1,107 @@
+# This workflow will build a Java project with Maven, and cache/restore any dependencies to improve the workflow execution time
+# For more information see: https://help.github.com/actions/language-and-framework-guides/building-and-testing-java-with-maven
+
+name: Java CI with Maven
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up JDK 11
+      uses: actions/setup-java@v2
+      with:
+        java-version: '11'
+        distribution: 'adopt'
+        cache: maven
+    - name: Build with Maven
+      run: mvn -B package --file pom.xml
+    - Nate158/5872/github_65795482
+
+Clutterreport: /storage/emulated/0/Android/
+
+### Target
+Target: `/storage/emulated/0/Android/data/.um`
+Prefix-free: `.um`
+Path-prefix: `/storage/emulated/0/Android/data/`
+Type: `DIRECTORY`
+Location: `PUBLIC_DATA`
+Current keeper state: `false`
+Suggested keeper state: `true`
+
+### Suggested owners
+Appname: `Intent Filter Verification Service`
+Packagename: `com.android.statementservice`
+Version: `1.0 (1)`
+
+### Current owners
+Appname: `?`
+Packagename: `com.tianxingjian.supersound`
+Version: ` (-1)`
+
+Appname: `?`
+Packagename: `com.qqfriends.com.music`
+Version: ` (-1)`
+
+Appname: `?`
+Packagename: `com.antutu.redacc`
+Version: ` (-1)`
+
+Appname: `?`
+Packagename: `com.antutu.ABenchMark`
+Version: ` (-1)`
+
+Appname: `?`
+Packagename: `com.antutu.videobench`
+Version: ` (-1)`
+
+Appname: `?`
+Packagename: `com.antutu.tester`
+Version: ` (-1)`
+
+Appname: `?`
+Packagename: `com.antutu.CpuMasterFree`
+Version: ` (-1)`
+
+Appname: `?`
+Packagename: `com.antutu.phoneprofilefree`
+Version: ` (-1)`
+
+Appname: `?`
+Packagename: `com.antutu.ABenchMark5`
+Version: ` (-1)`
+
+Appname: `?`
+Packagename: `com.antutu.benchmark.full`
+Version: ` (-1)`
+
+~~Appname: `?`~~
+~~Packagename: `com.antutu.CpuMaster`~~
+~~Version: ` (-1)`~~
+
+Appname: `?`
+Packagename: `com.uzywpq.cqlzahm`
+Version: ` (-1)`
+
+
+### SD Maid
+Version: `5.3.10 (50310)`
+
+### Device
+Fingerprint: `Itel/F6308/itel-L6005:9/PPR1.180610.011/IN-V056-20211027:user/release-keys`
+
+### Nate158/5872/github_65795482
+https://t.me/Nate158digimon
+@Nate158eTh's untitled project
+https://github.com/0634034090Nate/fluffy-doodle.git
+🐑🆙👁️‍🗨️💡❤️🕸️🗝️🦄📡🌍🌎😍🗂️⏱️🇹🇭📦`
+
+ProTip! Notify someone on an issue with a mention, like: @Nate158eTh.
